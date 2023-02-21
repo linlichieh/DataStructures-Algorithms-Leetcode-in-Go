@@ -2,6 +2,10 @@
 
 This repository contains implementations of Data Structures, Algorithms and Leetcode in Go.
 
+# Order
+
+Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> hashing -> sorting -> binary search -> trees -> BST -> Heaps -> Graph basics -> BFS -> DFS -> backtracking -> greedy -> Dynamic programming -> advanced graph -> Union find -> bit manipulation.
+
 # TODO leetcode problems
 
 * Two pointers
@@ -50,6 +54,10 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (deon) (+++) 98. validate binary search tree
     * (+++) 108. convert sorted arry to binary search tree
     * (++) 235. lowest common ancestor of a binary search tree
+* N-ary tree
+    * 428. serialize and deserialize N-ary tree
+* trie
+    * 588. design in-memory file system
 * String
     * (++) 539. Minimum Time Difference
 * binary search
@@ -89,6 +97,9 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++) 57. Insert Interval
     * (++) 435. Non-overlapping Intervals
     * (++) 986. interval list intersections
+* union find
+    * 547. number of provinces
+    * 261. graph valid tree
 
 
 
