@@ -17,7 +17,7 @@ Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> 
 * Array
     * (++) 238. Product of Array Except Self
 * Linked List
-    * (++) 2. Add Two Numbers
+    * (DONE)(++) 2. Add Two Numbers
     * (+++) 23. Merge k Sorted Lists
     * (++) 141. Linked List Cycle
 * Stack
@@ -137,7 +137,7 @@ Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> 
 * Linked List
     * (++) 2. Add Two Numbers
     * 19. Remove Nth Node From End of List
-    * 21. Merge Two Sorted Lists
+    * (DONE) 21. Merge Two Sorted Lists
     * (+++) 23. Merge k Sorted Lists
     * 24. Swap nodes in pairs
     * 25. reverse nodes in K-group
