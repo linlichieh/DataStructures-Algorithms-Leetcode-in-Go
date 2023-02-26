@@ -8,29 +8,54 @@ Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> 
 
 # TODO leetcode problems
 
-* Two pointers
-    * (++) 82. remove duplicates from sorted list II
-    * (++) 11. container with most water
-    * (++) 15. 3 Sum problem
-    * (++) 75. Sort Colors
-    * (++) 80. Remove Duplicates from Sorted Array II
-* Array
-    * (++) 238. Product of Array Except Self
 * Linked List
     * (DONE)(++) 2. Add Two Numbers
-    * (+++) 23. Merge k Sorted Lists
+    * (DONE) 21. Merge Two Sorted Lists
+    * (DONE) (+++) 23. Merge k Sorted Lists
     * (++) 141. Linked List Cycle
 * Stack
     * (++) 496. next greater element I
     * (++) 20. Valid Parentheses
     * (+++) 206. Reverse Linked List
     * (++) 739. Daily temperatures
-* Heap, priority queue
-    * (++) 347. Top K Frequent Elements
+* Two pointers
+    * (++) 82. remove duplicates from sorted list II
+    * (++) 11. container with most water
+    * (++) 15. 3 Sum problem
+    * (++) 75. Sort Colors
+    * (++) 80. Remove Duplicates from Sorted Array II
+* sliding window
+    * (++) 3. Longest Substring Without Repeating Characters
+    * (++) 76. Minimum window substring
+    * (++) 209. Minimum Size Subarray Sum
+    * (+++) 424. Longest Repeating Character Replacement
 * hash map / hash tables
     * (+++) 1. Two Sum
     * (+++) 49. Group Anagrams
     * (++) 560. Subarray Sum Equals K
+* Sorting
+    * (TODO)
+* binary search tree
+    * (deon) (+++) 98. validate binary search tree
+    * (+++) 108. convert sorted arry to binary search tree
+    * (++) 235. lowest common ancestor of a binary search tree
+    * (++++) 33. Search in Rotated Sorted Array
+    * (++) 34. Find in sorted array
+    * (++++) 153. Find Minimum in Rotated Sorted Array
+    * (++) 349. Intersection of two arrays
+    * (++) 658. Find K closest elements
+* Binary tree
+    * (++) 101. Symmetric Tree
+    * (+++) 105. Construct Binary Tree from Preorder and Inorder Traversal
+    * (++) 112. path sum
+    * (++) 124. binary tree maximum path sum
+    * (++) 297. Serialize and Deserialize Binary Tree
+    * (++) 543. Diameter of binary tree
+    * (++) 979. Distribute Coins in Binary Tree
+* Array
+    * (++) 238. Product of Array Except Self
+* Heap, priority queue
+    * (++) 347. Top K Frequent Elements
 * graph
     * (++) 127. word ladder
     * (++) 133. Clone Graph
@@ -42,35 +67,12 @@ Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> 
     * (++) 104. Maximum Depth of Binary Tree
     * (++) 102. Binary Tree Level Order Traversal
     * (++) 226. Invert Binary Tree
-* Binary tree
-    * (++) 101. Symmetric Tree
-    * (+++) 105. Construct Binary Tree from Preorder and Inorder Traversal
-    * (++) 112. path sum
-    * (++) 124. binary tree maximum path sum
-    * (++) 297. Serialize and Deserialize Binary Tree
-    * (++) 543. Diameter of binary tree
-    * (++) 979. Distribute Coins in Binary Tree
-* binary search tree
-    * (deon) (+++) 98. validate binary search tree
-    * (+++) 108. convert sorted arry to binary search tree
-    * (++) 235. lowest common ancestor of a binary search tree
 * N-ary tree
     * 428. serialize and deserialize N-ary tree
 * trie
     * 588. design in-memory file system
 * String
     * (++) 539. Minimum Time Difference
-* binary search
-    * (++++) 33. Search in Rotated Sorted Array
-    * (++) 34. Find in sorted array
-    * (++++) 153. Find Minimum in Rotated Sorted Array
-    * (++) 349. Intersection of two arrays
-    * (++) 658. Find K closest elements
-* sliding window
-    * (++) 3. Longest Substring Without Repeating Characters
-    * (++) 76. Minimum window substring
-    * (++) 209. Minimum Size Subarray Sum
-    * (+++) 424. Longest Repeating Character Replacement
 * Backtracking
     * (++) 46. Permutations I
     * (++) 79. Word search I
@@ -137,7 +139,7 @@ Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> 
 * Linked List
     * (++) 2. Add Two Numbers
     * 19. Remove Nth Node From End of List
-    * (DONE) 21. Merge Two Sorted Lists
+    * 21. Merge Two Sorted Lists
     * (+++) 23. Merge k Sorted Lists
     * 24. Swap nodes in pairs
     * 25. reverse nodes in K-group

@@ -1,6 +1,6 @@
 package leetcode23
 
-func backup1(lists []*ListNode) *ListNode {
+func CompareOneByOne(lists []*ListNode) *ListNode {
 	if len(lists) == 0 {
 		return nil
 	}
