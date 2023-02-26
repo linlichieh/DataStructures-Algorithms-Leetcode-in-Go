@@ -2,10 +2,6 @@
 
 This repository contains implementations of Data Structures, Algorithms and Leetcode in Go.
 
-# Order
-
-Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> hashing -> sorting -> binary search -> trees -> BST -> Heaps -> Graph basics -> BFS -> DFS -> backtracking -> greedy -> Dynamic programming -> advanced graph -> Union find -> bit manipulation.
-
 # TODO leetcode problems
 
 * Linked List
@@ -106,7 +102,7 @@ Recursion -> Linked list -> Stack -> Queue -> Two pointers -> Sliding-window -> 
 
 
 
-# Combine leetcode questions online
+# Other leetcode problems (might be worth to give it a try)
 
 * Two Pointers
     * 83. Remove Duplicates from Sorted List
