@@ -5,10 +5,10 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 # TODO leetcode problems
 
 * Linked List
-    * (DONE)(++) 2. Add Two Numbers
-    * (DONE) 21. Merge Two Sorted Lists
-    * (DONE) (+++) 23. Merge k Sorted Lists
-    * (++) 141. Linked List Cycle
+    * ✅ (++) 2. Add Two Numbers
+    * ✅ 21. Merge Two Sorted Lists
+    * ✅ (+++) 23. Merge k Sorted Lists
+    * ✅ (++) 141. Linked List Cycle
 * Stack
     * (++) 496. next greater element I
     * (++) 20. Valid Parentheses
