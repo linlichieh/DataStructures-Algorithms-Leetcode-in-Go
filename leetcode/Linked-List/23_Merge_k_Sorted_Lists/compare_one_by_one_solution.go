@@ -1,5 +1,6 @@
 package leetcode23
 
+// Backup solution
 func CompareOneByOne(lists []*ListNode) *ListNode {
 	if len(lists) == 0 {
 		return nil

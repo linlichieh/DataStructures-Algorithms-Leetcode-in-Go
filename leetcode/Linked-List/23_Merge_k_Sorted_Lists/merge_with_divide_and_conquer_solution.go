@@ -5,11 +5,8 @@ type ListNode struct {
 	Next *ListNode
 }
 
-type heap struct {
-	root *ListNode
-}
-
-func mergeKLists(lists []*ListNode) *ListNode {
+// Backup solution
+func MergeWithDivideAndConquer(lists []*ListNode) *ListNode {
 	if len(lists) == 0 {
 		return nil
 	}
