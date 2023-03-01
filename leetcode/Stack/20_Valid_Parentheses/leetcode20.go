@@ -1,72 +1,48 @@
 package leetcode20
 
-const (
-	OPEN  = int(1)
-	CLOSE = int(0)
-)
-
-var m = map[string]int{
-	"(": OPEN,
-	"[": OPEN,
-	"{": OPEN,
-	")": CLOSE,
-	"]": CLOSE,
-	"}": CLOSE,
-}
-
-var pair = map[string]string{
-	"(": ")",
-	"[": "]",
-	"{": "}",
-}
-
 func isValid(s string) bool {
 	if len(s)%2 != 0 {
 		return false
 	}
-	return validate(s, 0, &[]string{})
+	return validate(s, 0, &[]rune{})
 }
 
-func validate(s string, pos int, stack *[]string) bool {
+func validate(s string, pos int, stack *[]rune) bool {
+	// If 'pos' has reached the end, which means the whole process is done, check if there are any items left in the stack.
 	if pos == len(s) {
-		return false
+		return len(*stack) == 0
 	}
 
-	char := string(s[pos])
+	char := rune(s[pos])
 	pos++
 
 	// Check if the string contains any forbidden characters
-	typ, ok := m[char]
-	if !ok {
-		return false
-	}
-
-	// If it's open bracket, put it into the stack
-	if typ == OPEN {
+	switch char {
+	case '(', '[', '{':
+		// If it's open bracket, put it into the stack
 		*stack = append(*stack, char)
 		return validate(s, pos, stack)
-	}
-
-	// If it's a close bracket, but there are no items in the stack.
-	if len(*stack) < 1 {
-		return false
-	}
-
-	// The topmost item on the stack should be the matching pair., for example `(` -> `)`, can't be `(` -> `]`
-	peek := (*stack)[len(*stack)-1]
-	if pair[peek] != char {
-		return false
-	}
-
-	// If 'pos' has reached the end, check if there are any items left on the stack.
-	if pos == len(s) {
-		if len(*stack) > 1 {
+	case ')', ']', '}':
+		// If there is no any open brackets in tht stack or the open bracket in the stack doesn't match the `char`
+		if len(*stack) == 0 || pair((*stack)[len(*stack)-1]) != char {
 			return false
 		}
-		return true
-	}
 
-	// If `pos` hasn't reached the end, pop the item from the stack
-	*stack = (*stack)[:len(*stack)-1]
-	return validate(s, pos, stack)
+		// If `pos` hasn't reached the end, pop the item from the stack
+		*stack = (*stack)[:len(*stack)-1]
+		return validate(s, pos, stack)
+	}
+	return false
+}
+
+func pair(char rune) rune {
+	switch char {
+	case '(':
+		return ')'
+	case '[':
+		return ']'
+	case '{':
+		return '}'
+	}
+	return 0
 }
