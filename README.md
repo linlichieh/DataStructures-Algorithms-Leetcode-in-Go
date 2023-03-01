@@ -12,7 +12,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * Stack
     * ✅ (++) 496. next greater element I
     * ✅ (++) 20. Valid Parentheses
-    * (+++) 206. Reverse Linked List
+    * ✅ (+++) 206. Reverse Linked List
     * (++) 739. Daily temperatures
 * Two pointers
     * (++) 82. remove duplicates from sorted list II
