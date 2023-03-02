@@ -8,12 +8,12 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (++) 2. Add Two Numbers
     * ✅ 21. Merge Two Sorted Lists
     * ✅ (+++) 23. Merge k Sorted Lists
-    * ✅ (++) 141. Linked List Cycle
+    * ✅ (++) 141. Linked List Cycle (two pointers)
 * Stack
     * ✅ (++) 496. next greater element I
     * ✅ (++) 20. Valid Parentheses
     * ✅ (+++) 206. Reverse Linked List
-    * (++) 739. Daily temperatures
+    * ✅ (++) 739. Daily temperatures
 * Two pointers
     * (++) 82. remove duplicates from sorted list II
     * (++) 11. container with most water
