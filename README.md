@@ -26,7 +26,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++) 209. Minimum Size Subarray Sum
     * (+++) 424. Longest Repeating Character Replacement
 * hash map / hash tables
-    * (+++) 1. Two Sum
+    * ✅ (+++) 1. Two Sum
     * (+++) 49. Group Anagrams
     * (++) 560. Subarray Sum Equals K
 * Sorting
