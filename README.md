@@ -15,7 +15,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (+++) 206. Reverse Linked List
     * ✅ (++) 739. Daily temperatures
 * Two pointers
-    * (++) 82. remove duplicates from sorted list II
+    * ✅ (++) 82. remove duplicates from sorted list II
     * (++) 11. container with most water
     * (++) 15. 3 Sum problem
     * (++) 75. Sort Colors
