@@ -18,7 +18,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (++) 82. remove duplicates from sorted list II
     * ✅ (++) 11. container with most water
     * ✅ (++) 15. 3 Sum problem
-    * (++) 75. Sort Colors
+    * ✅ (++) 75. Sort Colors
     * (++) 80. Remove Duplicates from Sorted Array II
 * sliding window
     * (++) 3. Longest Substring Without Repeating Characters
