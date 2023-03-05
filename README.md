@@ -6,63 +6,61 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 
 * Linked List
     * ✅ (++) 2. Add Two Numbers
-    * ✅ 21. Merge Two Sorted Lists
-    * ✅ (+++) 23. Merge k Sorted Lists
-    * ✅ (++) 141. Linked List Cycle (two pointers)
+    * ✅ (75) 21. Merge Two Sorted Lists
+    * ✅ (+++)(50/75) 23. Merge k Sorted Lists
+    * ✅ (++)(50/75) 141. Linked List Cycle (two pointers)
 * Stack
     * ✅ (++) 496. next greater element I
-    * ✅ (++) 20. Valid Parentheses
-    * ✅ (+++) 206. Reverse Linked List
+    * ✅ (++)(50/75) 20. Valid Parentheses
+    * ✅ (+++)(50/75) 206. Reverse Linked List
     * ✅ (++) 739. Daily temperatures
 * Two pointers
     * ✅ (++) 82. remove duplicates from sorted list II
-    * ✅ (++) 11. container with most water
-    * ✅ (++) 15. 3 Sum problem
-    * ✅ (++) 75. Sort Colors
+    * ✅ (++)(50/75) 11. container with most water
+    * ✅ (++)(50/75) 15. 3 Sum problem
+    * ✅ (++)(75) 75. Sort Colors
     * ✅ (++) 80. Remove Duplicates from Sorted Array II
 * sliding window
-    * (++) 3. Longest Substring Without Repeating Characters
-    * (++) 76. Minimum window substring
+    * (++)(50/75) 3. Longest Substring Without Repeating Characters
+    * (++)(50/75) 76. Minimum window substring
     * (++) 209. Minimum Size Subarray Sum
-    * (+++) 424. Longest Repeating Character Replacement
+    * (+++)(50) 424. Longest Repeating Character Replacement
 * hash map / hash tables
-    * ✅ (+++) 1. Two Sum
-    * (+++) 49. Group Anagrams
+    * ✅ (+++)(50/75) 1. Two Sum
+    * (+++)(50) 49. Group Anagrams
     * (++) 560. Subarray Sum Equals K
-* Sorting
-    * (TODO)
 * binary search tree
-    * (deon) (+++) 98. validate binary search tree
+    * (done) (+++)(50/75) 98. validate binary search tree
     * (+++) 108. convert sorted arry to binary search tree
-    * (++) 235. lowest common ancestor of a binary search tree
-    * (++++) 33. Search in Rotated Sorted Array
+    * (++)(50/75) 235. lowest common ancestor of a binary search tree
+    * (++++)(75) 33. Search in Rotated Sorted Array
     * (++) 34. Find in sorted array
-    * (++++) 153. Find Minimum in Rotated Sorted Array
+    * (++++)(50) 153. Find Minimum in Rotated Sorted Array
     * (++) 349. Intersection of two arrays
     * (++) 658. Find K closest elements
 * Binary tree
     * (++) 101. Symmetric Tree
-    * (+++) 105. Construct Binary Tree from Preorder and Inorder Traversal
+    * (+++)(50/75) 105. Construct Binary Tree from Preorder and Inorder Traversal
     * (++) 112. path sum
-    * (++) 124. binary tree maximum path sum
-    * (++) 297. Serialize and Deserialize Binary Tree
-    * (++) 543. Diameter of binary tree
+    * (++)(50) 124. binary tree maximum path sum
+    * (++)(50/75) 297. Serialize and Deserialize Binary Tree
+    * (++)(75) 543. Diameter of binary tree
     * (++) 979. Distribute Coins in Binary Tree
 * Array
-    * (++) 238. Product of Array Except Self
+    * (++)(50/75) 238. Product of Array Except Self
 * Heap, priority queue
-    * (++) 347. Top K Frequent Elements
+    * (++)(50) 347. Top K Frequent Elements
 * graph
-    * (++) 127. word ladder
-    * (++) 133. Clone Graph
-    * (+++) 200. Number of Islands
-    * (++) 417. Pacific Atlantic Water Flow
+    * (++)(75) 127. word ladder
+    * (++)(50/75) 133. Clone Graph
+    * (+++)(50/75) 200. Number of Islands
+    * (++)(50) 417. Pacific Atlantic Water Flow
 * matrix
-    * (++) 54. Spiral Matrix
+    * (++)(75) 54. Spiral Matrix
 * tree
-    * (++) 104. Maximum Depth of Binary Tree
-    * (++) 102. Binary Tree Level Order Traversal
-    * (++) 226. Invert Binary Tree
+    * (++)(75) 104. Maximum Depth of Binary Tree
+    * (++)(75) 102. Binary Tree Level Order Traversal
+    * (++)(50/75) 226. Invert Binary Tree
 * N-ary tree
     * 428. serialize and deserialize N-ary tree
 * trie
@@ -70,39 +68,237 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * String
     * (++) 539. Minimum Time Difference
 * Backtracking
-    * (++) 46. Permutations I
-    * (++) 79. Word search I
-    * (++) 212. Word search II
+    * (++)(75) 46. Permutations I
+    * (++)(75) 79. Word search I
+    * (++)(50) 212. Word search II
     * (++) 22. Generate Parentheses
 * dynamic programming
-    * (++) 70. Climbing Stairs
-    * (+++) 62. Unique Paths I
+    * (++)(50/75) 70. Climbing Stairs
+    * (+++)(50/75) 62. Unique Paths I
     * (++) 63. Unique Paths II
-    * (++) 91. decode ways
-    * (+++) 139. Word Break
-    * (++) 377. Combination Sum IV
-    * (+++) 53. Maximum Subarray
-    * (+++) 300. Longest Increasing Subsequence
+    * (++)(50) 91. decode ways
+    * (+++)(50/75) 139. Word Break
+    * (++)(50) 377. Combination Sum IV
+    * (+++)(50/75) 53. Maximum Subarray
+    * (+++)(50) 300. Longest Increasing Subsequence
     * (++) 152. maximum product subarray
-    * (+++) 322. coin change
-    * (+++) 55. jump game
-    * (+++) 121. best time to buy and sell stock
+    * (+++)(50/75) 322. coin change
+    * (+++)(50) 55. jump game
+    * (+++)(50/75) 121. best time to buy and sell stock
     * (++) 122. best time to buy and sell stock II
-    * (++) 198. House Robber
-    * (++) 213. House Robber II
+    * (++)(50) 198. House Robber
+    * (++)(50) 213. House Robber II
 * interval
-    * (++) 56. Merge Intervals
-    * (++) 57. Insert Interval
-    * (++) 435. Non-overlapping Intervals
+    * (++)(50/75) 56. Merge Intervals
+    * (++)(50/75) 57. Insert Interval
+    * (++)(50) 435. Non-overlapping Intervals
     * (++) 986. interval list intersections
 * union find
     * 547. number of provinces
     * 261. graph valid tree
+* blind
+    * (75) 125. Valid Palindrome
+    * (50/75) 242. Valid Anagram
+    * (75) 704. Binary Search
+    * (75) 733. Flood Fill
+    * (75) 110. Balanced Binary Tree
+    * (75) 232. Implement Queue using Stacks
+    * (75) 278. First Bad Version
+    * (75) 383. Ransom Note
+    * (75) 409. Longest Palindrome
+    * (75) 169. Majority Element
+    * (75) 67. Add Binary
+    * (75) 876. Middle of the Linked List
+    * (50/75) 217. Contains Duplicate
+    * (75) 542. 01 Matrix
+    * (75) 973. K closet points to origin
+    * (75) 150. Evaluate Reverse Polish Notation
+    * (50/75) 207. Course Schedule
+    * (50/75) 208. Implement Trie (Prefix Tree)
+    * (75) 155. Min Stack
+    * (75) 994. Rotting Oranges
+    * (75) 39. Combination Sum
+    * (75) 236. Lowest Common Ancestor of a Binary Tree
+    * (75) 981. Time Based Key-Value Store
+    * (75) 721. Accounts Merge
+    * (75) 416. Partition Equal Subset Sum
+    * (75) 8. String to Integer (atoi)
+    * (75) 78. Subsets
+    * (75) 199. Binary Tree Right Side View
+    * (75) 5. Longest Palindromic Substring
+    * (75) 17. Letter Combinations of a Phone Number
+    * (75) 438. Find All Anagrams in a String
+    * (75) 310. Minimum Height Trees
+    * (75) 621. Task Scheduler
+    * (75) 146. LRU Cache
+    * (50/75) 230. Kth Smallest Element in a BST
+    * (75) 42. Trapping Rain Water
+    * (50/75) 295. Find Median from Data Stream
+    * (75) 224. Basic Calculator
+    * (75) 1235. Maximum Profit in Job Scheduling
+    * (75) 84. Largest Rectangle in Histogram
+    * (50) 19. Remove Nth Node From End of List
+    * (50) 647. Palindromic Substrings
+    * (50) 211. Design Add and Search Words Data Structure
+    * (50) 128. Longest Consecutive Sequence
+
+
+# Blind 50
+* Week 1 - Sequences
+    * 1. Two Sum
+    * 217. Contains Duplicate
+    * 121. Best Time to Buy and Sell Stock
+    * 242. Valid Anagram
+    * 20. Valid Parentheses
+    * 53. Maximum Subarray
+    * 238. Product of Array Except Self
+    * 15. 3Sum
+    * 56. Merge Intervals
+    * 49. Group Anagrams
+* Week 2 - Data structures
+    * 206. Reverse Linked List
+    * 141. Linked List Cycle
+    * 11. Container With Most Water
+    * 153. Find Minimum in Rotated Sorted Array
+    * 424. Longest Repeating Character Replacement
+    * 3. Longest Substring Without Repeating Characters
+    * 200. Number of Islands
+    * 19. Remove Nth Node From End of List
+    * 647. Palindromic Substrings
+    * 417. Pacific Atlantic Water Flow
+    * 76. Minimum Window Substring
+* Week 3 - Non-linear data structures
+    * 226. Invert Binary Tree
+    * 98. Validate Binary Search Tree
+    * 435. Non-overlapping Intervals
+    * 105. Construct Binary Tree from Preorder and Inorder Traversal
+    * 347. Top K Frequent Elements
+    * 133. Clone Graph
+    * 207. Course Schedule
+    * 297. Serialize and Deserialize Binary Tree
+    * 124. Binary Tree Maximum Path Sum
+    * Optional
+        * 104. Maximum Depth of Binary Tree
+        * 100. Same Tree
+        * 102. Binary Tree Level Order Traversal
+* Week 4 - More data structures
+    * (50) 572. Subtree of Another Tree
+    * 235. Lowest Common Ancestor of a Binary Search Tree
+    * 208. Implement Trie (Prefix Tree)
+    * 211. Design Add and Search Words Data Structure
+    * 230. Kth Smallest Element in a BST
+    * 23. Merge k Sorted Lists
+    * 295. Find Median from Data Stream
+    * 57. Insert Interval
+    * 128. Longest Consecutive Sequence
+    * 212. Word Search II
+* Week 5 - Dynamic programming
+    * 70. Climbing Stairs
+    * 322. Coin Change
+    * 300. Longest Increasing Subsequence
+    * 377. Combination Sum IV
+    * 198. House Robber
+    * 213. House Robber II
+    * 91. Decode Ways
+    * 62. Unique Paths
+    * 55. Jump Game
+    * 139. Word Break
 
 
 
 
-# Other leetcode problems (might be worth to give it a try)
+
+
+# Blind 75
+
+* Week 1
+    * 1. Two Sum
+    * 20. Valid Parentheses
+    * 21. Merge Two Sorted Lists
+    * 121. Best Time to Buy and Sell Stock
+    * 125. Valid Palindrome
+    * 226. Invert Binary Tree
+    * 242. Valid Anagram
+    * 704. Binary Search
+    * 733. Flood Fill
+    * 235. Lowest Common Ancestor of a Binary Search Tree
+    * 110. Balanced Binary Tree
+    * 141. Linked List Cycle
+    * 232. Implement Queue using Stacks
+* Week 2
+    * 278. First Bad Version
+    * 383. Ransom Note
+    * 70. Climbing Stairs
+    * 409. Longest Palindrome
+    * 206. Reverse Linked List
+    * 169. Majority Element
+    * 67. Add Binary
+    * 543. Diameter of Binary Tree
+    * 876. Middle of the Linked List
+    * 104. Maximum Depth of Binary Tree
+    * 217. Contains Duplicate
+    * 53. Maximum Subarray
+* Week 3
+    * 57. Insert Interval
+    * 542. 01 Matrix
+    * 973. K Closest Points to Origin
+    * 3. Longest Substring Without Repeating Characters
+    * 15. 3Sum
+    * 102. Binary Tree Level Order Traversal
+    * 133. Clone Graph
+    * 150. Evaluate Reverse Polish Notation
+* Week 4
+    * 207. Course Schedule
+    * 208. Implement Trie (Prefix Tree)
+    * 322. Coin Change
+    * 238. Product of Array Except Self
+    * 155. Min Stack
+    * 98. Validate Binary Search Tree
+    * 200. Number of Islands
+    * 994. Rotting Oranges
+* Week 5
+    * 33. Search in Rotated Sorted Array
+    * 39. Combination Sum
+    * 46. Permutations
+    * 56. Merge Intervals
+    * 236. Lowest Common Ancestor of a Binary Tree
+    * 981. Time Based Key-Value Store
+    * 721. Accounts Merge
+    * 75. Sort Colors
+* Week 6
+    * 139. Word Break
+    * 416. Partition Equal Subset Sum
+    * 8. String to Integer (atoi)
+    * 54. Spiral Matrix
+    * 78. Subsets
+    * 199. Binary Tree Right Side View
+    * 5. Longest Palindromic Substring
+    * 62. Unique Paths
+    * 105. Construct Binary Tree from Preorder and Inorder Traversal
+* Week 7
+    * 11. Container With Most Water
+    * 17. Letter Combinations of a Phone Number
+    * 79. Word Search
+    * 438. Find All Anagrams in a String
+    * 310. Minimum Height Trees
+    * 621. Task Scheduler
+    * 146. LRU Cache
+* Week 8
+    * 230. Kth Smallest Element in a BST
+    * 76. Minimum Window Substring
+    * 297. Serialize and Deserialize Binary Tree
+    * 42. Trapping Rain Water
+    * 295. Find Median from Data Stream
+    * 127. Word Ladder
+    * 224. Basic Calculator
+    * 1235. Maximum Profit in Job Scheduling
+    * 23. Merge k Sorted Lists
+    * 84. Largest Rectangle in Histogram
+
+
+
+
+# Other sources (sum up)
 
 * Two Pointers
     * 83. Remove Duplicates from Sorted List
