@@ -53,6 +53,7 @@ func TestSortColors(t *testing.T) {
 	}
 
 	for i, c := range cases {
+		// in-place
 		sortColors(c.input)
 		if !reflect.DeepEqual(c.result, c.input) {
 			t.Errorf("(%d) expect '%v', but got '%v'", i, c.result, c.input)
