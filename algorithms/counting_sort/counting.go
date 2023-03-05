@@ -31,14 +31,15 @@ func counting(arr []int) []int {
 	}
 
 	// Create the sorted array
+	// NOTE By keeping the algorithm stable, iterate the loop in reverse
 	sortedArr := make([]int, len(arr), len(arr))
-	for _, val := range arr {
+	for i := len(arr) - 1; i >= 0; i-- {
 		// Get the the index of count array by subtracting min from value of original array
-		countIdx := val - min
+		countIdx := arr[i] - min
 		// Get the value of count arry
 		// NOTE Subtract 1 in order to get the correct index of sorted array
 		sortedIdx := countArr[countIdx] - 1
-		sortedArr[sortedIdx] = val
+		sortedArr[sortedIdx] = arr[i]
 		// value of count array minus 1
 		// NOTE It's for assigning the value of original array to the correct index of sorted array if the value exists 1+ times
 		countArr[countIdx]--
