@@ -10,267 +10,267 @@ Until the current window no longer fulfills the criteria, then continue iteratin
 
 Example
 
-	input1: ADCECDZIBZBECDCAGFB
-	input2: ABCC
+    input1: ADCECDZIBZBECDCAGFB
+    input2: ABCC
 
 char A
 
-	ADCECDZIBZBECDCAGFB
-	*
+    ADCECDZIBZBECDCAGFB
+    *
 
-	h = {A:1}
-	matched = 1
-	queue = [A]
-	shorest = ""
+    h = {A:1}
+    matched = 1
+    queue = [A]
+    shorest = ""
 
 char D (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-	 *
+    ADCECDZIBZBECDCAGFB
+     *
 
-	h = {A:1}
-	matched = 1
-	queue = [A]
-	shorest = ""
+    h = {A:1}
+    matched = 1
+    queue = [A]
+    shorest = ""
 
 char C
 
-	ADCECDZIBZBECDCAGFB
-	  *
+    ADCECDZIBZBECDCAGFB
+      *
 
-	h = {A:1, C:1}
-	matched = 1
-	queue = [A, C]
-	shorest = ""
+    h = {A:1, C:1}
+    matched = 1
+    queue = [A, C]
+    shorest = ""
 
 char E (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-	   *
+    ADCECDZIBZBECDCAGFB
+       *
 
-	h = {A:1, C:1}
-	matched = 1			// C still doesn't match the critiria
-	queue = [A, C]
-	shorest = ""
+    h = {A:1, C:1}
+    matched = 1         // C still doesn't match the critiria
+    queue = [A, C]
+    shorest = ""
 
 char C
 
-	ADCECDZIBZBECDCAGFB
-		*
+    ADCECDZIBZBECDCAGFB
+        *
 
-	h = {A:1, C:2}
-	matched = 2			// C has matched the critiria
-	queue = [A, C, C]
-	shorest = ""
+    h = {A:1, C:2}
+    matched = 2         // C has matched the critiria
+    queue = [A, C, C]
+    shorest = ""
 
 char D (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-		 *
+    ADCECDZIBZBECDCAGFB
+         *
 
-	h = {A:1, C:2}
-	matched = 2			// C has matched the critiria
-	queue = [A, C, C]
-	shorest = ""
+    h = {A:1, C:2}
+    matched = 2         // C has matched the critiria
+    queue = [A, C, C]
+    shorest = ""
 
 char Z (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-		  *
+    ADCECDZIBZBECDCAGFB
+          *
 
-	h = {A:1, C:2}
-	matched = 2			// C has matched the critiria
-	queue = [A, C, C]
-	shorest = ""
+    h = {A:1, C:2}
+    matched = 2         // C has matched the critiria
+    queue = [A, C, C]
+    shorest = ""
 
 char I (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-		   *
+    ADCECDZIBZBECDCAGFB
+           *
 
-	h = {A:1, C:2}
-	matched = 2			// C has matched the critiria
-	queue = [A, C, C]
-	shorest = ""
+    h = {A:1, C:2}
+    matched = 2         // C has matched the critiria
+    queue = [A, C, C]
+    shorest = ""
 
 char B
 
-	ADCECDZIBZBECDCAGFB
-			*
+    ADCECDZIBZBECDCAGFB
+            *
 
-	h = {A:1, C:2, B:1}
-	matched = 3			// C has matched the critiria
-	queue = [A, C, C, B]
-	shorest = ""
+    h = {A:1, C:2, B:1}
+    matched = 3         // C has matched the critiria
+    queue = [A, C, C, B]
+    shorest = ""
 
 matched = 3 (window matches all critiria), pop the queue and update the shortest
 
-	ADCECDZIBZBECDCAGFB
-	p		*
+    ADCECDZIBZBECDCAGFB
+    p       *
 
-	h = {C:2, B:1}
-	matched = 2
-	queue = [C, C, B]
-	shorest = "ADCECDZIB"			// update
+    h = {C:2, B:1}
+    matched = 2
+    queue = [C, C, B]
+    shorest = "ADCECDZIB"           // update
 
 char Z (matched = 2, continue to iterate) (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-			 *
+    ADCECDZIBZBECDCAGFB
+             *
 
-	h = {C:2, B:1}
-	matched = 2
-	queue = [C, C, B]
-	shorest = "ADCECDZIB"
+    h = {C:2, B:1}
+    matched = 2
+    queue = [C, C, B]
+    shorest = "ADCECDZIB"
 
 char B
 
-	ADCECDZIBZBECDCAGFB
-			  *
+    ADCECDZIBZBECDCAGFB
+              *
 
-	h = {C:2, B:2}
-	matched = 2
-	queue = [C, C, B, B]
-	shorest = "ADCECDZIB"
+    h = {C:2, B:2}
+    matched = 2
+    queue = [C, C, B, B]
+    shorest = "ADCECDZIB"
 
 char E (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-			   *
+    ADCECDZIBZBECDCAGFB
+               *
 
-	h = {C:2, B:2}
-	matched = 2
-	queue = [C, C, B, B]
-	shorest = "ADCECDZIB"
+    h = {C:2, B:2}
+    matched = 2
+    queue = [C, C, B, B]
+    shorest = "ADCECDZIB"
 
 char C
 
-	ADCECDZIBZBECDCAGFB
-				*
+    ADCECDZIBZBECDCAGFB
+                *
 
-	h = {C:3, B:2}
-	matched = 2
-	queue = [C, C, B, B, C]
-	shorest = "ADCECDZIB"
+    h = {C:3, B:2}
+    matched = 2
+    queue = [C, C, B, B, C]
+    shorest = "ADCECDZIB"
 
 char D (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-				 *
+    ADCECDZIBZBECDCAGFB
+                 *
 
-	h = {C:3, B:2}
-	matched = 2
-	queue = [C, C, B, B, C]
-	shorest = "ADCECDZIB"
+    h = {C:3, B:2}
+    matched = 2
+    queue = [C, C, B, B, C]
+    shorest = "ADCECDZIB"
 
 char C
 
-	ADCECDZIBZBECDCAGFB
-				  *
+    ADCECDZIBZBECDCAGFB
+                  *
 
-	h = {C:4, B:2}
-	matched = 2
-	queue = [C, C, B, B, C, C]
-	shorest = "ADCECDZIB"
+    h = {C:4, B:2}
+    matched = 2
+    queue = [C, C, B, B, C, C]
+    shorest = "ADCECDZIB"
 
 char A
 
-	ADCECDZIBZBECDCAGFB
-				   *
+    ADCECDZIBZBECDCAGFB
+                   *
 
-	h = {C:4, B:2, A:1}
-	matched = 3
-	queue = [C, C, B, B, C, C, A]
-	shorest = "ADCECDZIB"
-
-matched = 3 (window matches all critiria), pop the queue and update the shortest
-
-	ADCECDZIBZBECDCAGFB
-	  p			   *
-
-	h = {C:3, B:2, A:1}
-	matched = 3
-	queue = [C, B, B, C, C, A]
-	shorest = "ADCECDZIBZB"			// "CECDZIBZBECDCA" isn't the shortest
+    h = {C:4, B:2, A:1}
+    matched = 3
+    queue = [C, C, B, B, C, C, A]
+    shorest = "ADCECDZIB"
 
 matched = 3 (window matches all critiria), pop the queue and update the shortest
 
-	ADCECDZIBZBECDCAGFB
-		p		   *
+    ADCECDZIBZBECDCAGFB
+      p            *
 
-	h = {C:2, B:2, A:1}
-	matched = 3
-	queue = [B, B, C, C, A]
-	shorest = "ADCECDZIBZB"			// "CDZIBZBECDCA" isn't the shortest
-
-matched = 3 (window matches all critiria), pop the queue and update the shortest
-
-	ADCECDZIBZBECDCAGFB
-			p	   *
-
-	h = {C:2, B:1, A:1}
-	matched = 3
-	queue = [B, C, C, A]
-	shorest = "BZBECDCA"			// update
+    h = {C:3, B:2, A:1}
+    matched = 3
+    queue = [C, B, B, C, C, A]
+    shorest = "ADCECDZIBZB"         // "CECDZIBZBECDCA" isn't the shortest
 
 matched = 3 (window matches all critiria), pop the queue and update the shortest
 
-	ADCECDZIBZBECDCAGFB
-			  p	   *
+    ADCECDZIBZBECDCAGFB
+        p          *
 
-	h = {C:2, A:1}
-	matched = 2
-	queue = [C, C, A]
-	shorest = "BECDCA"				// update
+    h = {C:2, B:2, A:1}
+    matched = 3
+    queue = [B, B, C, C, A]
+    shorest = "ADCECDZIBZB"         // "CDZIBZBECDCA" isn't the shortest
+
+matched = 3 (window matches all critiria), pop the queue and update the shortest
+
+    ADCECDZIBZBECDCAGFB
+            p      *
+
+    h = {C:2, B:1, A:1}
+    matched = 3
+    queue = [B, C, C, A]
+    shorest = "BZBECDCA"            // update
+
+matched = 3 (window matches all critiria), pop the queue and update the shortest
+
+    ADCECDZIBZBECDCAGFB
+              p    *
+
+    h = {C:2, A:1}
+    matched = 2
+    queue = [C, C, A]
+    shorest = "BECDCA"              // update
 
 char G (matched = 2, continue to iterate) (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-					*
+    ADCECDZIBZBECDCAGFB
+                    *
 
-	h = {C:2, A:1}
-	matched = 2
-	queue = [C, C, A]
-	shorest = "BECDCA"
+    h = {C:2, A:1}
+    matched = 2
+    queue = [C, C, A]
+    shorest = "BECDCA"
 
 char F (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-					 *
+    ADCECDZIBZBECDCAGFB
+                     *
 
-	h = {C:2, A:1}
-	matched = 2
-	queue = [C, C, A]
-	shorest = "BECDCA"
+    h = {C:2, A:1}
+    matched = 2
+    queue = [C, C, A]
+    shorest = "BECDCA"
 
 char B (do nothing)
 
-	ADCECDZIBZBECDCAGFB
-					  *
+    ADCECDZIBZBECDCAGFB
+                      *
 
-	h = {C:2, B:1, A:1}
-	matched = 3
-	queue = [C, C, A, B]
-	shorest = "BECDCA"
+    h = {C:2, B:1, A:1}
+    matched = 3
+    queue = [C, C, A, B]
+    shorest = "BECDCA"
 
 matched = 3 (window matches all critiria), pop the queue and update the shortest
 
-	ADCECDZIBZBECDCAGFB
-				p	  *
+    ADCECDZIBZBECDCAGFB
+                p     *
 
-	h = {C:1, B:1, A:1}
-	matched = 2
-	queue = [C, A, B]
-	shorest = "BECDCA"     // "CDCAGFB" isn't the shortest
+    h = {C:1, B:1, A:1}
+    matched = 2
+    queue = [C, A, B]
+    shorest = "BECDCA"     // "CDCAGFB" isn't the shortest
 
 out of the string
 
-	ADCECDZIBZBECDCAGFB
-					   *
+    ADCECDZIBZBECDCAGFB
+                       *
 
-	h = {C:1, B:1, A:1}
-	matched = 2
-	queue = [C, A, B]
-	shorest = "BECDCA"     // "CDCAGFB" isn't the shortest
+    h = {C:1, B:1, A:1}
+    matched = 2
+    queue = [C, A, B]
+    shorest = "BECDCA"     // "CDCAGFB" isn't the shortest
 
 end
