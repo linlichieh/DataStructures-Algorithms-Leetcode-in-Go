@@ -1,17 +1,16 @@
 # Idea
 
 Use the sliding window approach by iterating through the characters of string `s`. Increase the counter and add into the queue for each character if it's in the string `t`.
-Once the window ontains all characters of string `t`, find and update the shortest substring, and pop the first element from the queue in order to reset the window and decrease the counter.
-Until the current window no longer fulfills the criteria, then continue iterating through the rest characters and repeat the process until reaching the end.
-
-
+Once the window contains all characters of string `t`, find and update the shortest substring, and pop the first element from the queue in order to reset the window range and decrease the counter.
+Until the current window no longer fulfills the criteria, then continue iterating through the rest or the characters and repeat the process until reaching the end.
 
 # Demonstration
 
 Example
 
-    input1: ADCECDZIBZBECDCAGFB
-    input2: ABCC
+* string `s`: `ADCECDZIBZBECDCAGFB`
+* string `t`: `ABCC`
+* output: `BECDCA`
 
 char A
 
@@ -20,7 +19,7 @@ char A
 
     h = {A:1}
     matched = 1
-    queue = [A]
+    queue = [A]         // for better to understand, use the char to demonstrate instead of the index in the string
     shorest = ""
 
 char D (do nothing)
@@ -39,7 +38,7 @@ char C
       *
 
     h = {A:1, C:1}
-    matched = 1
+    matched = 1         // C still doesn't match the critiri, it needs 2
     queue = [A, C]
     shorest = ""
 
@@ -49,7 +48,7 @@ char E (do nothing)
        *
 
     h = {A:1, C:1}
-    matched = 1         // C still doesn't match the critiria
+    matched = 1
     queue = [A, C]
     shorest = ""
 
@@ -59,7 +58,7 @@ char C
         *
 
     h = {A:1, C:2}
-    matched = 2         // C has matched the critiria
+    matched = 2         // C has 2, matched++
     queue = [A, C, C]
     shorest = ""
 
@@ -69,7 +68,7 @@ char D (do nothing)
          *
 
     h = {A:1, C:2}
-    matched = 2         // C has matched the critiria
+    matched = 2
     queue = [A, C, C]
     shorest = ""
 
@@ -79,7 +78,7 @@ char Z (do nothing)
           *
 
     h = {A:1, C:2}
-    matched = 2         // C has matched the critiria
+    matched = 2
     queue = [A, C, C]
     shorest = ""
 
@@ -89,7 +88,7 @@ char I (do nothing)
            *
 
     h = {A:1, C:2}
-    matched = 2         // C has matched the critiria
+    matched = 2
     queue = [A, C, C]
     shorest = ""
 
@@ -99,7 +98,7 @@ char B
             *
 
     h = {A:1, C:2, B:1}
-    matched = 3         // C has matched the critiria
+    matched = 3             // matched++ due to B
     queue = [A, C, C, B]
     shorest = ""
 
@@ -179,7 +178,7 @@ char A
                    *
 
     h = {C:4, B:2, A:1}
-    matched = 3
+    matched = 3                         // matched++ due to A
     queue = [C, C, B, B, C, C, A]
     shorest = "ADCECDZIB"
 
@@ -263,7 +262,7 @@ matched = 3 (window matches all critiria), pop the queue and update the shortest
     queue = [C, A, B]
     shorest = "BECDCA"     // "CDCAGFB" isn't the shortest
 
-out of the string
+out of range
 
     ADCECDZIBZBECDCAGFB
                        *
