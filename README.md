@@ -38,6 +38,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++++)(50) 153. Find Minimum in Rotated Sorted Array
     * (++) 349. Intersection of two arrays
     * (++) 658. Find K closest elements
+    * ✅ 450. delete node in a BST
 * Binary tree
     * (++) 101. Symmetric Tree
     * (+++)(50/75) 105. Construct Binary Tree from Preorder and Inorder Traversal
