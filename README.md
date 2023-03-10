@@ -27,7 +27,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (+++)(50) 424. Longest Repeating Character Replacement
 * hash map / hash tables
     * ✅ (+++)(50/75) 1. Two Sum
-    * (+++)(50) 49. Group Anagrams
+    * ✅ (+++)(50) 49. Group Anagrams
     * (++) 560. Subarray Sum Equals K
 * binary search tree
     * (done) (+++)(50/75) 98. validate binary search tree
