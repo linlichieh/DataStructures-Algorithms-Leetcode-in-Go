@@ -30,7 +30,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (+++)(50) 49. Group Anagrams
     * (++) 560. Subarray Sum Equals K
 * binary search tree
-    * (done) (+++)(50/75) 98. validate binary search tree
+    * ✅ (+++)(50/75) 98. validate binary search tree
     * (+++) 108. convert sorted arry to binary search tree
     * (++)(50/75) 235. lowest common ancestor of a binary search tree
     * (++++)(75) 33. Search in Rotated Sorted Array
