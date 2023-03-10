@@ -24,7 +24,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (++)(50/75) 3. Longest Substring Without Repeating Characters
     * ✅ (++)(50/75) 76. Minimum window substring
     * (++) 209. Minimum Size Subarray Sum
-    * (+++)(50) 424. Longest Repeating Character Replacement
+    * ✅ (+++)(50) 424. Longest Repeating Character Replacement
 * hash map / hash tables
     * ✅ (+++)(50/75) 1. Two Sum
     * (+++)(50) 49. Group Anagrams
