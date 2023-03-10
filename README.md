@@ -32,7 +32,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * binary search tree
     * ✅ (+++)(50/75) 98. validate binary search tree
     * (+++) 108. convert sorted arry to binary search tree
-    * (++)(50/75) 235. lowest common ancestor of a binary search tree
+    * ✅ (++)(50/75) 235. lowest common ancestor of a binary search tree
     * (++++)(75) 33. Search in Rotated Sorted Array
     * (++) 34. Find in sorted array
     * (++++)(50) 153. Find Minimum in Rotated Sorted Array
