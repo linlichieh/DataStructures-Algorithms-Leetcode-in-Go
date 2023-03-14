@@ -29,16 +29,17 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (+++)(50/75) 1. Two Sum
     * ✅ (+++)(50) 49. Group Anagrams
     * (++) 560. Subarray Sum Equals K
-* binary search tree
-    * ✅ (+++)(50/75) 98. validate binary search tree
-    * (+++) 108. convert sorted arry to binary search tree
-    * ✅ (++)(50/75) 235. lowest common ancestor of a binary search tree
+* binary search
     * ✅ (++++)(75) 33. Search in Rotated Sorted Array
     * (++) 34. Find in sorted array
     * ✅ (++++)(50) 153. Find Minimum in Rotated Sorted Array
     * (++) 349. Intersection of two arrays
     * (++) 658. Find K closest elements
+* Binary Search tree
+    * ✅ (++)(50/75) 235. lowest common ancestor of a binary search tree
     * ✅ 450. delete node in a BST
+    * ✅ (+++)(50/75) 98. validate binary search tree
+    * (+++) 108. convert sorted arry to binary search tree
 * Binary tree
     * (++) 101. Symmetric Tree
     * (+++)(50/75) 105. Construct Binary Tree from Preorder and Inorder Traversal
