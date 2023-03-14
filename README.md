@@ -35,7 +35,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (++)(50/75) 235. lowest common ancestor of a binary search tree
     * ✅ (++++)(75) 33. Search in Rotated Sorted Array
     * (++) 34. Find in sorted array
-    * (++++)(50) 153. Find Minimum in Rotated Sorted Array
+    * ✅ (++++)(50) 153. Find Minimum in Rotated Sorted Array
     * (++) 349. Intersection of two arrays
     * (++) 658. Find K closest elements
     * ✅ 450. delete node in a BST
