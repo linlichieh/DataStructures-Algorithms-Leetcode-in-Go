@@ -42,7 +42,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (+++) 108. convert sorted arry to binary search tree
 * Binary tree
     * (++) 101. Symmetric Tree
-    * (+++)(50/75) 105. Construct Binary Tree from Preorder and Inorder Traversal
+    * ✅ (+++)(50/75) 105. Construct Binary Tree from Preorder and Inorder Traversal
     * (++) 112. path sum
     * (++)(50) 124. binary tree maximum path sum
     * (++)(50/75) 297. Serialize and Deserialize Binary Tree
