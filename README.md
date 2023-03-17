@@ -45,7 +45,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (+++)(50/75) 105. Construct Binary Tree from Preorder and Inorder Traversal
     * (++) 112. path sum
     * ✅ (++)(50) 124. binary tree maximum path sum
-    * (++)(50/75) 297. Serialize and Deserialize Binary Tree
+    * ✅ (++)(50/75) 297. Serialize and Deserialize Binary Tree
     * (++)(75) 543. Diameter of binary tree
     * (++) 979. Distribute Coins in Binary Tree
 * Array
