@@ -49,7 +49,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++)(75) 543. Diameter of binary tree
     * (++) 979. Distribute Coins in Binary Tree
 * Array
-    * (++)(50/75) 238. Product of Array Except Self
+    * ✅ (++)(50/75) 238. Product of Array Except Self
 * Heap, priority queue
     * (++)(50) 347. Top K Frequent Elements
 * graph
