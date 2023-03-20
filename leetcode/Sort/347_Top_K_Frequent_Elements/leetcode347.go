@@ -28,16 +28,11 @@ func topKFrequent(nums []int, k int) []int {
 		if len(buckets[i]) == 0 {
 			continue
 		}
-		if len(buckets[i]) <= k-len(result) {
-			result = append(result, buckets[i]...)
-			continue
-		}
-		for j := 0; j < k-len(result); j++ {
+		for j := 0; j < len(buckets[i]); j++ {
+			if len(result) == k {
+				break
+			}
 			result = append(result, buckets[i][j])
-		}
-
-		if len(result) == k {
-			break
 		}
 	}
 	return result
