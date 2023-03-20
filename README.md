@@ -51,7 +51,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * Array
     * ✅ (++)(50/75) 238. Product of Array Except Self
 * Heap, priority queue
-    * (++)(50) 347. Top K Frequent Elements
+    * ✅ (++)(50) 347. Top K Frequent Elements
 * graph
     * (++)(75) 127. word ladder
     * (++)(50/75) 133. Clone Graph
