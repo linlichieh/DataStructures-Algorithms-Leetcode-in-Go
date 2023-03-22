@@ -59,7 +59,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * graph
     * (++)(75) 127. word ladder
     * ✅ (++)(50/75) [133. Clone Graph](./leetcode/Graph/133_Clone_Graph/)
-    * (+++)(50/75) 200. Number of Islands
+    * ✅ (+++)(50/75) [200. Number of Islands](./leetcode/Graph/200_Number_of_Islands/)
     * (++)(50) 417. Pacific Atlantic Water Flow
 * matrix
     * (++)(75) 54. Spiral Matrix
