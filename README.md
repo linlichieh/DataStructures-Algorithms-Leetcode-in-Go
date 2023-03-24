@@ -75,7 +75,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++) 539. Minimum Time Difference
 * Backtracking
     * (++)(75) 46. Permutations I
-    * (++)(75) 79. Word search I
+    * ✅ (++)(75) [79. Word search I](./leetcode/Backtracking/79_Word_Search/)
     * (++)(50) 212. Word search II
     * (++) 22. Generate Parentheses
 * dynamic programming
