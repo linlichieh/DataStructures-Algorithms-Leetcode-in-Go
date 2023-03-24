@@ -66,7 +66,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * tree
     * (++)(75) 104. Maximum Depth of Binary Tree
     * (++)(75) 102. Binary Tree Level Order Traversal
-    * (++)(50/75) 226. Invert Binary Tree
+    * ✅ (++)(50/75) [226. Invert Binary Tree](./leetcode/Binary-Tree/226_Invert_Binary_Tree/)
 * N-ary tree
     * 428. serialize and deserialize N-ary tree
 * trie
