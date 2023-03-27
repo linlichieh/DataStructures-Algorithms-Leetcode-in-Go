@@ -32,9 +32,6 @@ func (t *Trie) Delete(word string) {
 
 	// Call the helper function to delete the word from the Trie
 	t.del(word, 0)
-
-	// DEBUG
-	// t.Print()
 }
 
 func (t *Trie) del(word string, idx int) {
@@ -56,13 +53,8 @@ func (t *Trie) del(word string, idx int) {
 		node.del(word, idx+1)
 	}
 
-	// DEBUG
 	// If the node doesn't have any children and it's not the end of any word
-	// fmt.Printf("%c children: %d, endOfWord: %t\n", char, len(node.children), node.endOfWord)
 	if len(node.children) == 0 && !node.endOfWord {
-		// DEBUG
-		// fmt.Printf("del %c\n", char)
-
 		// Remove it from the map
 		delete(t.children, char)
 	}
