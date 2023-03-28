@@ -79,7 +79,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (++)(50) [212. Word search II](./leetcode/Backtracking/212_Word_Search_II/)
     * (++) 22. Generate Parentheses
 * dynamic programming
-    * (++)(50/75) 70. Climbing Stairs
+    * ✅ (++)(50/75) [70. Climbing Stairs](./leetcode/Dynamic-Programming/70_Climbing_Stairs/)
     * (+++)(50/75) 62. Unique Paths I
     * (++) 63. Unique Paths II
     * (++)(50) 91. decode ways

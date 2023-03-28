@@ -3,7 +3,7 @@
  Use a Trie data structure to store all the words in the given dictionary.
  Then, use a DFS algorithm to traverse the given board and search for the words in the Trie.
  If the character doesn't exist in the children of current path or no children, then backtrack.
- Once the word is found, then aad it to the result and mark as visited to avoid the same path being counted twice.
+ Once the word is found, then add it to the result and mark as visited to avoid the same path being counted twice.
  Mark the cell as visited to prevent it from being accessed twice. Change it back to the original character after each DFS call.
 
 * Time complexity: `O(M * N * 4^L + K * L)` = `O(M * N * 4^L)`
