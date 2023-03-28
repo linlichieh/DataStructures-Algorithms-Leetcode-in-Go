@@ -48,6 +48,9 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (++)(50/75) [297. Serialize and Deserialize Binary Tree](./leetcode/Binary-Tree/297_Serialize_and_Deserialize_Binary_Tree/)
     * (++)(75) 543. Diameter of binary tree
     * (++) 979. Distribute Coins in Binary Tree
+    * (++)(75) 104. Maximum Depth of Binary Tree
+    * (++)(75) 102. Binary Tree Level Order Traversal
+    * ✅ (++)(50/75) [226. Invert Binary Tree](./leetcode/Binary-Tree/226_Invert_Binary_Tree/)
 * Recursion
     * ✅ [509. Fibonacci Number](./leetcode/Recursion/509_Fibonacci_Number/)
 * Array
@@ -63,14 +66,11 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (++)(50) [417. Pacific Atlantic Water Flow](./leetcode/Graph/417_Pacific_Atlantic_Water_Flow/)
 * matrix
     * (++)(75) 54. Spiral Matrix
-* tree
-    * (++)(75) 104. Maximum Depth of Binary Tree
-    * (++)(75) 102. Binary Tree Level Order Traversal
-    * ✅ (++)(50/75) [226. Invert Binary Tree](./leetcode/Binary-Tree/226_Invert_Binary_Tree/)
 * N-ary tree
     * 428. serialize and deserialize N-ary tree
 * trie
     * 588. design in-memory file system
+    * (placeholder) 212. Word search II
 * String
     * (++) 539. Minimum Time Difference
 * Backtracking
