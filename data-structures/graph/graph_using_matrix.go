@@ -28,6 +28,7 @@ func (g *GraphMatrix) GetNeighbors(v int) []int {
 	}
 	return neighbors
 }
+
 func (g *GraphMatrix) IsAdjacent(u, v int) bool {
 	return g.adjacencyMatrix[u][v] == 1
 }

@@ -56,6 +56,6 @@ func (t *BST) Lookup(val int) bool {
 }
 
 // NOTE
-//   - The implementation can be achieved through both recursive and non-recursive methods.
-//     Please refer to the solutions for `leetcode/leetcode/450_Delete_Node_in_a_BST`.
+//   - The `Remove` implementation can be achieved through both recursive and non-recursive methods.
+//     Please refer to these solutions in `leetcode/Binary-Search-Tree/450_Delete_Node_in_a_BST/`
 // func (t *BST) Remove(val int)
