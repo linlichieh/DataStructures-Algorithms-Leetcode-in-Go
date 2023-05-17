@@ -10,8 +10,9 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	// stack
 	stack := []int{}
 	for _, n := range nums2 {
-		// if there is any element in the stack, comapre the last one with `n` from nums2
+		// if there is any element in the stack, comapre the top of the stack with the current number `n` from nums2
 		// if the `n` it's greater than the value from stack, than `n` is the next greater value of the value from stack
+		// , and update the map by the correspoding key
 		for len(stack) > 0 && stack[len(stack)-1] < n {
 			// Pop the value from the stack
 			val := stack[len(stack)-1]

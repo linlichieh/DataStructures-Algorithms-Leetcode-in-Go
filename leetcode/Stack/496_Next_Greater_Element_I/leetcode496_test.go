@@ -36,6 +36,11 @@ func TestNextGreaterElement(t *testing.T) {
 			nums2:  []int{1, 2, 3, 4},
 			result: []int{3, -1},
 		},
+		{
+			nums1:  []int{2, 0, 1},
+			nums2:  []int{2, 0, 3, 4},
+			result: []int{3, 3, -1},
+		},
 	}
 
 	for _, c := range cases {
