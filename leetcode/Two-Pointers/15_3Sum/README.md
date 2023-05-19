@@ -5,6 +5,7 @@
 ### why is sorting necessary
 
 Without sorting the input array, we would need to check all pairs of elements in the input array, which would result in a time complexity of O(N^2)
+
 Because the input array is sorted, we know that if nums[j] + nums[k] < target, we need to increase j to get closer to the target value, and if nums[j] + nums[k] > target, we need to decrease k to get closer to the target value. We can do this efficiently using the two-pointer approach without checking all pairs of elements in the input array.
 
 ### How about hash-based solution?

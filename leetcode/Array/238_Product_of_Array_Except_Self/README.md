@@ -43,14 +43,14 @@ then 3, post = 4
     output      1   1   8   6
                         |--------- output[2](=2) * post(=4)
 
-next 2, post = 12 (4*3)
+next 2, post = 12 (4 * 3)
 
     input       1   2   3   4
     --------------------------
     output      1   12  8   6
                     |------------- output[1](=1) * post(=12)
 
-last 1, post = 24 (4*3*2)
+last 1, post = 24 (4 * 3 * 2)
 
     input       1   2   3   4
     --------------------------
