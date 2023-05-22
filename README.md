@@ -81,7 +81,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * dynamic programming
     * ✅ (++)(50/75) [70. Climbing Stairs](./leetcode/Dynamic-Programming/70_Climbing_Stairs/)
     * ✅ (+++)(50/75) [62. Unique Paths I](./leetcode/Dynamic-Programming/62_Unique_Paths/)
-    * (++) 63. Unique Paths II
+    * ✅ (++) [63. Unique Paths II](./leetcode/Dynamic-Programming/63_Unique_Paths_II/)
     * (++)(50) 91. decode ways
     * (+++)(50/75) 139. Word Break
     * (++)(50) 377. Combination Sum IV
