@@ -85,7 +85,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++)(50) 91. decode ways
     * ✅ (+++)(50/75) [139. Word Break](./leetcode/Dynamic-Programming/139_Word_Break/) 📝 a bit tricky
     * (++)(50) 377. Combination Sum IV
-    * (+++)(50/75) 53. Maximum Subarray
+    * ✅ (+++)(50/75) [53. Maximum Subarray](./leetcode/Dynamic-Programming/53_Maximum_Subarray/)
     * (+++)(50) 300. Longest Increasing Subsequence
     * (++) 152. maximum product subarray
     * (+++)(50/75) 322. coin change
