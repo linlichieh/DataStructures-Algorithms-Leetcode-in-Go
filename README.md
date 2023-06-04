@@ -2,68 +2,87 @@
 
 This repository contains implementations of Data Structures, Algorithms and Leetcode in Go.
 
-# leetcode problems
+# Data Structures
+
+* [Stack](/data-structures/stack/)
+* [Queue](/data-structures/queue/)
+* [Tree](/data-structures/tree/)
+* [Trie](/data-structures/trie/) [🔗](https://blog.linlichieh.com/posts/data-structures/#trie)
+* [Heap](/data-structures/heap/) [🔗](https://blog.linlichieh.com/posts/data-structures/#heap)
+* [Graph](/data-structures/graph/) [🔗](https://blog.linlichieh.com/posts/data-structures/#graph)
+
+# Algorithms
+
+* [Bubble sort](/algorithms/bubble_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#bubble-sort)
+* [Insertion sort](/algorithms/insertion_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#insertion-sort)
+* [Selection sort](/algorithms/selection_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#selection-sort)
+* [Merge sort](/algorithms/merge_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#merge-sort)
+* [Quick sort](/algorithms/quick_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#quick-sort)
+* [Heap sort](/algorithms/heap_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#heap-sort)
+* [Counting sort](/algorithms/counting_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#counting-sort)
+
+# Leetcode
 
 * Linked List
-    * ✅ (++) [2. Add Two Numbers](./leetcode/Linked-List/2_Add_Two_Numbers/)
-    * ✅ (75) [21. Merge Two Sorted Lists](./leetcode/Linked-List/21_Merge_Two_Sorted_Lists/)
-    * ✅ (+++)(50/75) [23. Merge k Sorted Lists](./leetcode/Linked-List/23_Merge_k_Sorted_Lists/)
-    * ✅ (++)(50/75) [141. Linked List Cycle](./leetcode/Linked-List/141_Linked_List_Cycle/)
+    * ✅ (++) [2. Add Two Numbers](/leetcode/Linked-List/2_Add_Two_Numbers/)
+    * ✅ (75) [21. Merge Two Sorted Lists](/leetcode/Linked-List/21_Merge_Two_Sorted_Lists/)
+    * ✅ (+++)(50/75) [23. Merge k Sorted Lists](/leetcode/Linked-List/23_Merge_k_Sorted_Lists/)
+    * ✅ (++)(50/75) [141. Linked List Cycle](/leetcode/Linked-List/141_Linked_List_Cycle/)
 * Stack
-    * ✅ (++) [496. next greater element I](./leetcode/Stack/496_Next_Greater_Element_I/)
-    * ✅ (++)(50/75) [20. Valid Parentheses](./leetcode/Stack/20_Valid_Parentheses/)
-    * ✅ (+++)(50/75) [206. Reverse Linked List](./leetcode/Stack/206_Reverse_Linked_List/)
-    * ✅ (++) [739. Daily temperatures](./leetcode/Stack/739_Daily_Temperatures/)
+    * ✅ (++) [496. next greater element I](/leetcode/Stack/496_Next_Greater_Element_I/)
+    * ✅ (++)(50/75) [20. Valid Parentheses](/leetcode/Stack/20_Valid_Parentheses/)
+    * ✅ (+++)(50/75) [206. Reverse Linked List](/leetcode/Stack/206_Reverse_Linked_List/)
+    * ✅ (++) [739. Daily temperatures](/leetcode/Stack/739_Daily_Temperatures/)
 * Two pointers
-    * ✅ (++) [82. remove duplicates from sorted list II](./leetcode/Two-Pointers/82_Remove_Duplicates_from_Sorted_List_II/)
-    * ✅ (++)(50/75) [11. container with most water](./leetcode/Two-Pointers/11_Container_With_Most_Water/)
-    * ✅ (++)(50/75) [15. 3 Sum problem](./leetcode/Two-Pointers/15_3Sum/)
-    * ✅ (++)(75) [75. Sort Colors](./leetcode/Two-Pointers/75_Sort_Colors/)
-    * ✅ (++) [80. Remove Duplicates from Sorted Array II](./leetcode/Two-Pointers/80_Remove_Duplicates_from_Sorted_Array_II/)
+    * ✅ (++) [82. remove duplicates from sorted list II](/leetcode/Two-Pointers/82_Remove_Duplicates_from_Sorted_List_II/)
+    * ✅ (++)(50/75) [11. container with most water](/leetcode/Two-Pointers/11_Container_With_Most_Water/)
+    * ✅ (++)(50/75) [15. 3 Sum problem](/leetcode/Two-Pointers/15_3Sum/)
+    * ✅ (++)(75) [75. Sort Colors](/leetcode/Two-Pointers/75_Sort_Colors/)
+    * ✅ (++) [80. Remove Duplicates from Sorted Array II](/leetcode/Two-Pointers/80_Remove_Duplicates_from_Sorted_Array_II/)
 * sliding window
-    * ✅ (++)(50/75) [3. Longest Substring Without Repeating Characters](./leetcode/Sliding-Window/3_Longest_Substring_Without_Repeating_Characters/)
-    * ✅ (++)(50/75) [76. Minimum window substring](./leetcode/Sliding-Window/76_Minimum_Window_Substring/)
+    * ✅ (++)(50/75) [3. Longest Substring Without Repeating Characters](/leetcode/Sliding-Window/3_Longest_Substring_Without_Repeating_Characters/)
+    * ✅ (++)(50/75) [76. Minimum window substring](/leetcode/Sliding-Window/76_Minimum_Window_Substring/)
     * (++) 209. Minimum Size Subarray Sum
-    * ✅ (+++)(50) [424. Longest Repeating Character Replacement](./leetcode/Sliding-Window/424_Longest_Repeating_Character_Replacement/)
+    * ✅ (+++)(50) [424. Longest Repeating Character Replacement](/leetcode/Sliding-Window/424_Longest_Repeating_Character_Replacement/)
 * hash map / hash tables
-    * ✅ (+++)(50/75) [1. Two Sum](./leetcode/Hash-Map/1_Two_Sum/)
-    * ✅ (+++)(50) [49. Group Anagrams](./leetcode/Hash-Map/49_Group_Anagrams/)
+    * ✅ (+++)(50/75) [1. Two Sum](/leetcode/Hash-Map/1_Two_Sum/)
+    * ✅ (+++)(50) [49. Group Anagrams](/leetcode/Hash-Map/49_Group_Anagrams/)
     * (++) 560. Subarray Sum Equals K
 * binary search
-    * ✅ (++++)(75) [33. Search in Rotated Sorted Array](./leetcode/Binary-Search/33_Search_in_Rotated_Sorted_Array/)
+    * ✅ (++++)(75) [33. Search in Rotated Sorted Array](/leetcode/Binary-Search/33_Search_in_Rotated_Sorted_Array/)
     * (++) 34. Find in sorted array
-    * ✅ (++++)(50) [153. Find Minimum in Rotated Sorted Array](./leetcode/Binary-Search/153_Find_Minimum_in_Rotated_Sorted_Array/)
+    * ✅ (++++)(50) [153. Find Minimum in Rotated Sorted Array](/leetcode/Binary-Search/153_Find_Minimum_in_Rotated_Sorted_Array/)
     * (++) 349. Intersection of two arrays
     * (++) 658. Find K closest elements
 * Binary Search tree
-    * ✅ (++)(50/75) [235. lowest common ancestor of a binary search tree](./leetcode/Binary-Search-Tree/235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree/)
-    * ✅ [450. delete node in a BST](./leetcode/Binary-Search-Tree/450_Delete_Node_in_a_BST/)
-    * ✅ (+++)(50/75) [98. validate binary search tree](./leetcode/Binary-Search-Tree/98_Validate_Binary_Search_Tree/)
+    * ✅ (++)(50/75) [235. lowest common ancestor of a binary search tree](/leetcode/Binary-Search-Tree/235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree/)
+    * ✅ [450. delete node in a BST](/leetcode/Binary-Search-Tree/450_Delete_Node_in_a_BST/)
+    * ✅ (+++)(50/75) [98. validate binary search tree](/leetcode/Binary-Search-Tree/98_Validate_Binary_Search_Tree/)
     * (+++) 108. convert sorted arry to binary search tree
 * Binary tree
     * (++) 101. Symmetric Tree
-    * ✅ (+++)(50/75) [105. Construct Binary Tree from Preorder and Inorder Traversal](./leetcode/Binary-Tree/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/)
+    * ✅ (+++)(50/75) [105. Construct Binary Tree from Preorder and Inorder Traversal](/leetcode/Binary-Tree/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/)
     * (++) 112. path sum
-    * ✅ (++)(50) [124. binary tree maximum path sum](./leetcode/Binary-Tree/124_Binary_Tree_Maximum_Path_Sum/)
-    * ✅ (++)(50/75) [297. Serialize and Deserialize Binary Tree](./leetcode/Binary-Tree/297_Serialize_and_Deserialize_Binary_Tree/)
+    * ✅ (++)(50) [124. binary tree maximum path sum](/leetcode/Binary-Tree/124_Binary_Tree_Maximum_Path_Sum/)
+    * ✅ (++)(50/75) [297. Serialize and Deserialize Binary Tree](/leetcode/Binary-Tree/297_Serialize_and_Deserialize_Binary_Tree/)
     * (++)(75) 543. Diameter of binary tree
     * (++) 979. Distribute Coins in Binary Tree
     * (++)(75) 104. Maximum Depth of Binary Tree
     * (++)(75) 102. Binary Tree Level Order Traversal
-    * ✅ (++)(50/75) [226. Invert Binary Tree](./leetcode/Binary-Tree/226_Invert_Binary_Tree/)
+    * ✅ (++)(50/75) [226. Invert Binary Tree](/leetcode/Binary-Tree/226_Invert_Binary_Tree/)
 * Recursion
-    * ✅ [509. Fibonacci Number](./leetcode/Recursion/509_Fibonacci_Number/)
+    * ✅ [509. Fibonacci Number](/leetcode/Recursion/509_Fibonacci_Number/)
 * Array
-    * ✅ (++)(50/75) [238. Product of Array Except Self](./leetcode/Array/238_Product_of_Array_Except_Self/)
+    * ✅ (++)(50/75) [238. Product of Array Except Self](/leetcode/Array/238_Product_of_Array_Except_Self/)
 * Heap, priority queue
     * TODO
 * Sort
-    * ✅ (++)(50) [347. Top K Frequent Elements](./leetcode/Sort/347_Top_K_Frequent_Elements/)
+    * ✅ (++)(50) [347. Top K Frequent Elements](/leetcode/Sort/347_Top_K_Frequent_Elements/)
 * graph
     * (++)(75) 127. word ladder
-    * ✅ (++)(50/75) [133. Clone Graph](./leetcode/Graph/133_Clone_Graph/)
-    * ✅ (+++)(50/75) [200. Number of Islands](./leetcode/Graph/200_Number_of_Islands/)
-    * ✅ (++)(50) [417. Pacific Atlantic Water Flow](./leetcode/Graph/417_Pacific_Atlantic_Water_Flow/)
+    * ✅ (++)(50/75) [133. Clone Graph](/leetcode/Graph/133_Clone_Graph/)
+    * ✅ (+++)(50/75) [200. Number of Islands](/leetcode/Graph/200_Number_of_Islands/)
+    * ✅ (++)(50) [417. Pacific Atlantic Water Flow](/leetcode/Graph/417_Pacific_Atlantic_Water_Flow/)
 * matrix
     * (++)(75) 54. Spiral Matrix
 * N-ary tree
@@ -75,17 +94,17 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++) 539. Minimum Time Difference
 * Backtracking
     * (++)(75) 46. Permutations I
-    * ✅ (++)(75) [79. Word search I](./leetcode/Backtracking/79_Word_Search/)
-    * ✅ (++)(50) [212. Word search II](./leetcode/Backtracking/212_Word_Search_II/)
+    * ✅ (++)(75) [79. Word search I](/leetcode/Backtracking/79_Word_Search/)
+    * ✅ (++)(50) [212. Word search II](/leetcode/Backtracking/212_Word_Search_II/)
     * (++) 22. Generate Parentheses
 * dynamic programming
-    * ✅ (++)(50/75) [70. Climbing Stairs](./leetcode/Dynamic-Programming/70_Climbing_Stairs/)
-    * ✅ (+++)(50/75) [62. Unique Paths I](./leetcode/Dynamic-Programming/62_Unique_Paths/)
-    * ✅ (++) [63. Unique Paths II](./leetcode/Dynamic-Programming/63_Unique_Paths_II/)
+    * ✅ (++)(50/75) [70. Climbing Stairs](/leetcode/Dynamic-Programming/70_Climbing_Stairs/)
+    * ✅ (+++)(50/75) [62. Unique Paths I](/leetcode/Dynamic-Programming/62_Unique_Paths/)
+    * ✅ (++) [63. Unique Paths II](/leetcode/Dynamic-Programming/63_Unique_Paths_II/)
     * (++)(50) 91. decode ways
-    * ✅ (+++)(50/75) [139. Word Break](./leetcode/Dynamic-Programming/139_Word_Break/) 📝 a bit tricky
+    * ✅ (+++)(50/75) [139. Word Break](/leetcode/Dynamic-Programming/139_Word_Break/) 📝 a bit tricky
     * (++)(50) 377. Combination Sum IV
-    * ✅ (+++)(50/75) [53. Maximum Subarray](./leetcode/Dynamic-Programming/53_Maximum_Subarray/)
+    * ✅ (+++)(50/75) [53. Maximum Subarray](/leetcode/Dynamic-Programming/53_Maximum_Subarray/)
     * (+++)(50) 300. Longest Increasing Subsequence
     * (++) 152. maximum product subarray
     * (+++)(50/75) 322. coin change
