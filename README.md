@@ -107,7 +107,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * ✅ (+++)(50/75) [53. Maximum Subarray](/leetcode/Dynamic-Programming/53_Maximum_Subarray/)
     * (+++)(50) 300. Longest Increasing Subsequence
     * (++) 152. maximum product subarray
-    * (+++)(50/75) 322. coin change
+    * ✅ (+++)(50/75) [322. coin change](/leetcode/Dynamic-Programming/322_Coin_Change/) 📝 a bit difficult to understand the idea
     * (+++)(50) 55. jump game
     * (+++)(50/75) 121. best time to buy and sell stock
     * (++) 122. best time to buy and sell stock II
