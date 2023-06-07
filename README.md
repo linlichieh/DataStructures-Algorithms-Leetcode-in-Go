@@ -42,7 +42,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * sliding window
     * ✅ (++)(50/75) [3. Longest Substring Without Repeating Characters](/leetcode/Sliding-Window/3_Longest_Substring_Without_Repeating_Characters/)
     * ✅ (++)(50/75) [76. Minimum window substring](/leetcode/Sliding-Window/76_Minimum_Window_Substring/)
-    * (++) 209. Minimum Size Subarray Sum
+    * ✅ (++) [209. Minimum Size Subarray Sum](/leetcode/Sliding-Window/209_Minimum_Size_Subarray_Sum/)
     * ✅ (+++)(50) [424. Longest Repeating Character Replacement](/leetcode/Sliding-Window/424_Longest_Repeating_Character_Replacement/)
 * hash map / hash tables
     * ✅ (+++)(50/75) [1. Two Sum](/leetcode/Hash-Map/1_Two_Sum/)
