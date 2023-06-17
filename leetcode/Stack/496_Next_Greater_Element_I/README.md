@@ -1,14 +1,14 @@
 # Idea
 
-This solution works by using the stack to keep track of the numbers that are waiting for their next greater number.
-It ensures that whenever a number is pushed onto the stack, all the numbers with their next greater number found are already popped off the stack
+This solution uses the stack to keep track of the numbers that are waiting for their next greater number.
 
-* Initialize a map for nums1, where the keys are the values of nums1 and the default value is `-1`.
+* Initialize a map for nums1, where the keys are the values of nums1 and the default values are `-1`.
 * Iterate through the nums2 array:
-    * Loop the the stack is not empty and the top of the stack is less than the current number
-        * pop the stack as key1
-        * update the value of map to current number by key1 (the next greater element of the popped number is the current number)
-    * Push the current number onto the stack if it's in the list of nums1
+    * If the current value is greater than the value at the top of the stack
+        * it means that the next greater element has been found
+        * pop the stack
+        * set the value whose key is popped value to the current value in the map
+    * Push the current value into the stack if it's in the list of nums1
 
 # Time complexity
 
