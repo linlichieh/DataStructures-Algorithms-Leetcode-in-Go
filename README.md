@@ -77,9 +77,9 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (placeholder) 212. Word search II
 * Heap, priority queue
     * TODO
-* interval
+* Interval
     * ✅ (++)(50/75) [56. Merge Intervals](/leetcode/Interval/56_Merge_Intervals/)
-    * (++)(50/75) 57. Insert Interval
+    * ✅ (++)(50/75) [57. Insert Interval](/leetcode/Interval/57_Insert_Interval/)
     * (++)(50) 435. Non-overlapping Intervals
     * (++) 986. interval list intersections
 * Greedy
