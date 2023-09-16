@@ -7,19 +7,19 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * [Stack](/data-structures/stack/)
 * [Queue](/data-structures/queue/)
 * [Tree](/data-structures/tree/)
-* [Trie](/data-structures/trie/) [🔗](https://blog.linlichieh.com/posts/data-structures/#trie)
-* [Heap](/data-structures/heap/) [🔗](https://blog.linlichieh.com/posts/data-structures/#heap)
-* [Graph](/data-structures/graph/) [🔗](https://blog.linlichieh.com/posts/data-structures/#graph)
+* [Trie](/data-structures/trie/) [📄 Learn more](https://blog.linlichieh.com/posts/data-structures/#trie)
+* [Heap](/data-structures/heap/) [📄 Learn more](https://blog.linlichieh.com/posts/data-structures/#heap)
+* [Graph](/data-structures/graph/) [📄 Learn more](https://blog.linlichieh.com/posts/data-structures/#graph)
 
 # Algorithms
 
-* [Bubble sort](/algorithms/bubble_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#bubble-sort)
-* [Insertion sort](/algorithms/insertion_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#insertion-sort)
-* [Selection sort](/algorithms/selection_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#selection-sort)
-* [Merge sort](/algorithms/merge_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#merge-sort)
-* [Quick sort](/algorithms/quick_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#quick-sort)
-* [Heap sort](/algorithms/heap_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#heap-sort)
-* [Counting sort](/algorithms/counting_sort/) [🔗](https://blog.linlichieh.com/posts/algorithms/#counting-sort)
+* [Bubble sort](/algorithms/bubble_sort/) [📄 Learn more](https://blog.linlichieh.com/posts/algorithms/#bubble-sort)
+* [Insertion sort](/algorithms/insertion_sort/) [📄 Learn more](https://blog.linlichieh.com/posts/algorithms/#insertion-sort)
+* [Selection sort](/algorithms/selection_sort/) [📄 Learn more](https://blog.linlichieh.com/posts/algorithms/#selection-sort)
+* [Merge sort](/algorithms/merge_sort/) [📄 Learn more](https://blog.linlichieh.com/posts/algorithms/#merge-sort)
+* [Quick sort](/algorithms/quick_sort/) [📄 Learn more](https://blog.linlichieh.com/posts/algorithms/#quick-sort)
+* [Heap sort](/algorithms/heap_sort/) [📄 Learn more](https://blog.linlichieh.com/posts/algorithms/#heap-sort)
+* [Counting sort](/algorithms/counting_sort/) [📄 Learn more](https://blog.linlichieh.com/posts/algorithms/#counting-sort)
 
 # Leetcode
 
@@ -78,8 +78,8 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * Heap, priority queue
     * TODO
 * Interval
-    * ✅ (++)(50/75) [56. Merge Intervals](/leetcode/Interval/56_Merge_Intervals/)
-    * ✅ (++)(50/75) [57. Insert Interval](/leetcode/Interval/57_Insert_Interval/)
+    * ✅ (++)(50/75) [56. Merge Intervals](/leetcode/Interval/56_Merge_Intervals/) 📝 easy
+    * ✅ (++)(50/75) [57. Insert Interval](/leetcode/Interval/57_Insert_Interval/) 📝 easy
     * (++)(50) 435. Non-overlapping Intervals
     * (++) 986. interval list intersections
 * Greedy
