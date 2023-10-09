@@ -115,7 +115,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (++) 152. maximum product subarray
     * ✅ (+++)(50/75) [322. coin change](/leetcode/Dynamic-Programming/322_Coin_Change/) 📝 a bit difficult to understand the idea
     * (+++)(50) 55. jump game
-    * (+++)(50/75) 121. best time to buy and sell stock
+    * ✅ (+++)(50/75) [121. best time to buy and sell stock](/leetcode/Dynamic-Programming/121_Best_Time_to_Buy_and_Sell_Stock/) 📝 very easy, don't overthink it
     * (++) 122. best time to buy and sell stock II
     * (++)(50) 198. House Robber
     * (++)(50) 213. House Robber II
