@@ -124,7 +124,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * 261. graph valid tree
 * blind
     * (75) 125. Valid Palindrome
-    * (50/75) 242. Valid Anagram
+    * ✅ (50/75) [242. Valid Anagram](/leetcode/Hash-Map/242_Valid_Anagram/) 📝 easy
     * (75) 704. Binary Search
     * (75) 733. Flood Fill
     * (75) 110. Balanced Binary Tree

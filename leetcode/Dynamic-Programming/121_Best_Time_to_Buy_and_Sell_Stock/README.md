@@ -2,7 +2,7 @@
 
 Keep track of the minimum price you have seen so far and the maximum profit you can get each day.
 
-# Step-by-Step Approach:
+# Step-by-Step Approach
 
 1. Initialize two variables, one for the minimum price and another for the maximum profit.
 2. Iterate through the list of stock prices.
