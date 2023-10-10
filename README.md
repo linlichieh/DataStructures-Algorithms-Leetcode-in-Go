@@ -135,7 +135,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (75) 169. Majority Element
     * (75) 67. Add Binary
     * (75) 876. Middle of the Linked List
-    * (50/75) 217. Contains Duplicate
+    * ✅ (50/75) [217. Contains Duplicate](/leetcode/Hash-Map/217_Contains_Duplicate/) 📝 super easy
     * (75) 542. 01 Matrix
     * (75) 973. K closet points to origin
     * (75) 150. Evaluate Reverse Polish Notation
