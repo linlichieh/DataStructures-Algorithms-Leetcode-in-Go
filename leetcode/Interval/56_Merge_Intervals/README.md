@@ -1,4 +1,4 @@
-#  Additional explanation for the question
+# Additional explanation for the question
 
 The first element represents the start of the interval and the second element represents the end of the interval.
 

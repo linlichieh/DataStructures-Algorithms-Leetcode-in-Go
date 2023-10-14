@@ -139,7 +139,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (75) 542. 01 Matrix
     * (75) 973. K closet points to origin
     * (75) 150. Evaluate Reverse Polish Notation
-    * (50/75) 207. Course Schedule
+    * ✅ (50/75) [207. Course Schedule](/leetcode/Graph/207_Course_Schedule/) 📝 medium, worth to visit again
     * (50/75) 208. Implement Trie (Prefix Tree)
     * (75) 155. Min Stack
     * (75) 994. Rotting Oranges
