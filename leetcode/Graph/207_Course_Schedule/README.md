@@ -40,6 +40,7 @@ You need to determine if it's possible to take all courses without running into 
     * If we can reduce the indegree of all courses to 0, it means we can finish all courses.
     * If there are still nodes left at the end (courses with prerequisites), it means there's a cycle.
     * less intuitive for cycle detection than DFS
+    * NOTE: In-degree of a node (course): The number of courses that need to be taken before you can take this course.
 
 > Both DFS and BFS solve the problem in O(V+E) time complexity, where V is the number of courses and E is the number of prerequisites.
 > Both approaches also use O(V+E) space
@@ -72,3 +73,5 @@ You need to determine if it's possible to take all courses without running into 
     * Recursively call BFS on the remaining courses in the queue.
 4. Result:
     * Check if the processed courses count matches numCourses to determine the absence of cycles.
+
+> My understanding: we start from the bottom nodes, that's why we enqueue nodes whose in-degree is 0.
