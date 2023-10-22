@@ -157,7 +157,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (75) 310. Minimum Height Trees
     * (75) 621. Task Scheduler
     * (75) 146. LRU Cache
-    * (50/75) 230. Kth Smallest Element in a BST
+    * ✅ (50/75) [230. Kth Smallest Element in a BST](/leetcode/Binary-Search-Tree/230_Kth_Smallest_Element_in_a_BST/) 📝 medium, worth to re-visit
     * (75) 42. Trapping Rain Water
     * (50/75) 295. Find Median from Data Stream
     * (75) 224. Basic Calculator
