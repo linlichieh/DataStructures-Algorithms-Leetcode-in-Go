@@ -159,7 +159,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
     * (75) 146. LRU Cache
     * ✅ (50/75) [230. Kth Smallest Element in a BST](/leetcode/Binary-Search-Tree/230_Kth_Smallest_Element_in_a_BST/) 📝 medium, worth to re-visit
     * (75) 42. Trapping Rain Water
-    * (50/75) 295. Find Median from Data Stream
+    * ✅ (50/75) [295. Find Median from Data Stream](/leetcode/Heap/295_Find_Median_from_Data_Stream/) 📝 hard, worth to re-visit
     * (75) 224. Basic Calculator
     * (75) 1235. Maximum Profit in Job Scheduling
     * (75) 84. Largest Rectangle in Histogram
