@@ -28,7 +28,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * hash map / hash tables
     * ✅ (+++)(50/75) [1. Two Sum](/leetcode/Hash-Map/1_Two_Sum/)
     * ✅ (+++)(50) [49. Group Anagrams](/leetcode/Hash-Map/49_Group_Anagrams/)
-    * (++) 560. Subarray Sum Equals K
+    * ✅ (++) [560. Subarray Sum Equals K](/leetcode/Hash-Map/560_Subarray_Sum_Equals_K/) 📝 medium-difficult
 * Stack
     * ✅ (++) [496. next greater element I](/leetcode/Stack/496_Next_Greater_Element_I/)
     * ✅ (++)(50/75) [20. Valid Parentheses](/leetcode/Stack/20_Valid_Parentheses/)
