@@ -80,7 +80,7 @@ This repository contains implementations of Data Structures, Algorithms and Leet
 * Interval
     * ✅ (++)(50/75) [56. Merge Intervals](/leetcode/Interval/56_Merge_Intervals/) 📝 easy
     * ✅ (++)(50/75) [57. Insert Interval](/leetcode/Interval/57_Insert_Interval/) 📝 easy
-    * (++)(50) 435. Non-overlapping Intervals
+    * ✅ (++)(50) [435. Non-overlapping Intervals](/leetcode/Interval/435_Non-overlapping_Intervals/) 📝 medium
     * (++) 986. interval list intersections
 * Greedy
     * TODO
